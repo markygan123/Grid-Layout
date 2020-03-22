@@ -12,6 +12,11 @@ body {
 	font-family: sans-serif;
 }
 
+h1 {
+	color: initial;
+	padding: 30px; 
+}
+
 #container {
 	display: grid;
 	margin: 50px auto;
