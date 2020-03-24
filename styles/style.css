@@ -24,7 +24,7 @@ h1 {
 	text-shadow: 2px 2px 1px black;
 
 	grid-template-columns: repeat(5, 1fr);
-	grid-row-columns: repeat(4, 1fr);
+	grid-template-rows: 100px 200px 200px 100px;
 }
 
 #container > * {
