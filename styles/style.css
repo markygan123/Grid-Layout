@@ -21,6 +21,7 @@ h1 {
 	display: grid;
 	margin: 50px auto;
 	max-width: 960px;
+	text-shadow: 2px 2px 1px black;
 
 	grid-template-columns: repeat(5, 1fr);
 	grid-row-columns: repeat(4, 1fr);
