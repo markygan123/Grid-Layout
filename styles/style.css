@@ -5,7 +5,7 @@
 
 body {
 	color: #fff;
-	font-size: 20px;
+	font-size: 30px;
 
 	text-align: center;
 	text-transform: capitalize;
@@ -34,7 +34,6 @@ h1 {
 #container header {
 	background: #3bbced;
 	grid-column: 1 / 6;
-	line-height: 2;
 }
 
 #container aside {
@@ -50,7 +49,7 @@ h1 {
 
 #container aside,
 #container nav {
-	line-height: 6.5;
+	line-height: 5;
 }
 
 #container main {
@@ -58,12 +57,11 @@ h1 {
 	grid-column: 3 / 6;
 	grid-row: 2 / 4;
 
-	line-height: 18;
+	line-height: 12;
 }
 
 #container footer {
 	background: #ff214a;
 	grid-column: 1 / 6;
-	line-height: 2;
 }
 
