@@ -34,6 +34,7 @@ h1 {
 #container header {
 	background: #3bbced;
 	grid-column: 1 / 6;
+	line-height: 2;
 }
 
 #container aside {
@@ -47,15 +48,22 @@ h1 {
 	grid-row: 3 / 4;
 }
 
+#container aside,
+#container nav {
+	line-height: 6.5;
+}
+
 #container main {
 	background: #7700ed;
 	grid-column: 3 / 6;
 	grid-row: 2 / 4;
 
-	line-height: 6;
+	line-height: 18;
 }
 
 #container footer {
 	background: #ff214a;
 	grid-column: 1 / 6;
+	line-height: 2;
 }
+
